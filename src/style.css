@@ -200,9 +200,11 @@ body {
 	}
 
 	.footer {
+		padding: 0 30px;
 		text-align: center;
 		justify-content: space-around;
 		align-items: center;
+		width: auto;
 		height: 100px;
 	}
 }
