@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Teko:wght@400;700&display=swap");
 
-body {
-	margin: 0;
-	padding: 0;
+html {
+	scroll-behavior: smooth;
 }
 
 * {
@@ -12,6 +11,8 @@ body {
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	background-color: black;
 }
 
@@ -92,8 +93,57 @@ body {
 	text-align: center;
 	font-family: "Teko", sans-serif;
 	font-size: 50px;
-	/* color: #eb0028; */
-	/* font-weight: bold; */
+}
+
+.lineup {
+	background-image: url("./assets/BGGR.webp");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh; /* Set a minimum height to accommodate all content */
+	padding-bottom: 50px; /* Adjust as needed */
+}
+
+.speakers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.speaker {
+	width: calc(33.33% - 20px);
+	margin: 10px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.speaker p {
+	margin: 5px 0;
+	font-weight: bold;
+}
+
+.speakerName {
+	font-size: 20px;
+}
+
+.speakerSummary {
+	padding: 100px;
+	text-align: center;
+	font-family: "Teko", sans-serif;
+	font-size: 50px;
+}
+
+.speakerContainer img {
+	padding: 0 auto;
+	margin: 0 auto;
+	height: 70vh;
 }
 
 .infoSection {
