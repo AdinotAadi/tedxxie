@@ -188,6 +188,10 @@ body {
 		display: none;
 	}
 
+	.speakerContainer img {
+		height: 50vh;
+	}
+
 	.infoSection {
 		display: flex;
 		flex-direction: column;
