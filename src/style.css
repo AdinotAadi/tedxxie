@@ -81,6 +81,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	background-image: url("./assets/DSC01864.webp");
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
