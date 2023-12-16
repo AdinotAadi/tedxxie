@@ -90,7 +90,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #202020;
-	padding: 50px 50px;
+	padding: 50px 200px;
+	font-size: 14px;
 }
 
 .question {
@@ -117,5 +118,30 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	height: 100px;
-	width: 100vw;
+	width: 100%;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 818px) {
+	.nav {
+		display: none;
+	}
+
+	.infoSection {
+		display: flex;
+		flex-direction: column;
+		background-color: #202020;
+		padding: 50px 30px;
+	}
+
+	.QA {
+		margin-bottom: 20px;
+	}
+
+	.footer {
+		text-align: center;
+		justify-content: space-around;
+		align-items: center;
+		height: 100px;
+	}
 }
