@@ -85,3 +85,37 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.infoSection {
+	display: flex;
+	flex-direction: column;
+	background-color: #202020;
+	padding: 50px 50px;
+}
+
+.question {
+	color: #eb0028;
+	font-weight: bold;
+}
+
+.contactEmail {
+	font-weight: bold;
+	color: #c00;
+	transition: color 0.3s ease;
+}
+
+.contactEmail:hover {
+	color: #eb0028;
+}
+
+.QA {
+	margin-bottom: 20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	width: 100vw;
+}
